@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: lightpink;
+    text-align: center;
+}
+.grd{
+    width: 90%;
+    height: auto;
+    margin: auto;
+    border: 2px solid black;
+    background: lemonchiffon;
+}
+.item{
+    background: red;
+    text-align: center;
+    color:yellow;
+}
+.item:hover{
+    border: 1px solid black;
+}
+.grid1{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 100px 100px;
+    gap:10px 5px;
+}
+.grid2{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(5,80px);
+
+}

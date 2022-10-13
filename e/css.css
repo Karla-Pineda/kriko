@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: rgb(221, 189, 189);
+    width: 80%;
+    margin: auto;
+    border: 2px solid black;
+}
+header{
+    width: 100%;
+    background: #cf6807;
+    text-align: center;
+    border: 1px solid black;
+    margin: 20px auto;
+}
+.contenedor{
+    width: 100%;
+    height: 600px;
+}
+footer{
+    width: 100%;
+    height: 50px;
+    background: lightslategrey;
+    text-align: center;
+    border: 1px solid black;
+    margin: 20px auto;
+    padding: 15px;
+}
+nav{
+    width: 29%;
+    height: 300px;
+    background: lightblue;
+    border: 1px solid black;
+    margin: 0 1% 20px 0;
+    text-align: center;
+    padding: 15px;
+    float: left;
+}
+.secciones{
+    width: 70%;
+    height: 600px;
+    margin:0;
+    text-align: center;
+    float: left;
+}
+section{
+    width: 100%;
+    height: 200px;
+    background: lightsalmon;
+    border: 1px solid black;
+    margin:0 0 10px 0;
+    text-align: center;
+    padding: 15px;
+    float: left;
+} 
+article{
+    width: 49%;
+    height: 100px;
+    background: rgb(230, 173, 218);
+    border: 1px solid black;
+    margin:0 0 10px 0;
+    text-align: center;
+    padding: 15px;
+    float: left;
+}
+aside{
+    width: 100%;
+    height: 49%;
+    background: lightpink;
+    border: 1px solid black;
+    margin:0 0 2% 0;
+    text-align: center;
+    padding: 15px;
+    float: left;
+}
+.barras{
+    width: 49%;
+    height: 100%;
+    margin:0 1%;
+    text-align: center;
+    float: left;
+}
+.dos{
+float: right;
+width: 50%;
+}
+footer{
+    width: 100%;
+    height: 50px;
+    background: rgb(216, 166, 240);
+    border: 1px solid black;
+    margin: 20px auto;
+    text-align: center;
+    padding: 15px;
+}
+g

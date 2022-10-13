@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(235, 199, 199);
+    color: rgb(116, 177, 231);
+    text-align: center;
+    font-family: 'Silkscreen', cursive;
+}
+img{
+width: 200px ;
+height: 200px;
+border-radius: 100%;
+}
+
+ul{
+    list-style: none;
+    
+}
+
+a{
+
+text-decoration: none;
+color: rgb(15, 15, 15);
+display: block;
+padding: 20px;
+margin: 20px;
+border: 2px solid rgb(255, 68, 11);
+width: 200px;
+font-size: 20px;
+}
+a:hover{
+    box-shadow: 0 0 20px rgb(228, 153, 14);
+    transform: scale(1.1);
+
+
+
+}
